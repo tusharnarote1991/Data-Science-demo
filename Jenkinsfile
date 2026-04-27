@@ -21,7 +21,7 @@ pipeline {
             steps {
                 script {
                     // This will show a pop-up in Jenkins asking for approval
-                    input message: "Do you approve deployment?", ok: "Approve"
+                    input message: "Please approve deployment?", ok: "Approve"
                 }
             }
         }
